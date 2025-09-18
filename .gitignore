@@ -1,6 +1,15 @@
-bin/
-.DS_Store
-build/
-.gradle/
+# Python bytecode and cache
 __pycache__/
+*.pyc
+
+# pytest cache (test runs)
 .pytest_cache/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+# Created by pytest automatically.
+*
+
