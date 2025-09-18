@@ -23,6 +23,20 @@ def test_get_day_name():
     assert get_day_name(7) == "It is a Sunday"
     assert get_day_name(8) == "Not a proper day number!"
 
+# Test get_letter_grade function
+def test_get_letter_grade():
+    assert get_letter_grade(-5) == "Invalid mark"
+    assert get_letter_grade(100) == "A"
+    assert get_letter_grade(91) == "A"
+    assert get_letter_grade(89) == "B"
+    assert get_letter_grade(84) == "B"
+    assert get_letter_grade(75) == "C"
+    assert get_letter_grade(65) == "D"
+    assert get_letter_grade(55) == "F"
+    assert get_letter_grade(40) == "F"
+    assert get_letter_grade(101) == "Invalid mark"
+
+
 # Run tests
 if __name__ == '__main__':
     test_check_weekday_or_weekend()
