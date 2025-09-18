@@ -11,14 +11,14 @@ This template repository is the starter project for Programming in Science Lab 4
 * Write a program to check if the given number is proper day number and if it is, then for the given day number, your program should tell if it is about Weekday or Weekend.
 * If the given number is not a proper day number, return message "Not a proper day number!"
   * Input 0 ==> output "Not a proper day number!"
-  * Input 2 ==> output "It is a Weekday!"
-  * Input 6 ==> output "It is a Weekend!"
+  * Input 2 ==> output "Weekday"
+  * Input 6 ==> output "Weekend"
  
 **Q2: Get Day Name**. 
 * Write a program to check if the given number is proper day number and if it is, then for the given day number, your program should tell what day it is ("Monday" or "Wednesday").
 * If the given number is not a proper day number, return message "Not a proper day number!"
   * Input 8 ==> output "Not a proper day number!"
-  * Input 2 ==> output "It is a Tuesday!"
+  * Input 2 ==> output "Tuesday!"
 
 **Q3: Get Letter Grade**
 * Write a program that checks whether an entered mark is a proper percentage mark (0–100).
