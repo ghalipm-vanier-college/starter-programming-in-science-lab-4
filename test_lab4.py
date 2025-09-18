@@ -44,4 +44,5 @@ def test_get_letter_grade():
 if __name__ == '__main__':
     test_check_weekday_or_weekend()
     test_get_day_name()
+    test_get_letter_grade()
     print("All tests passed!")
