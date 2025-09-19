@@ -29,8 +29,8 @@ This template repository is the starter project for Programming in Science Lab 4
   * D: 60–69 (Minimal pass)
   * F: Below 60 (Fail)
 
-* If invalid, output: "Not a proper mark!"
+* If invalid, output: "Invalid mark"
 
 * Sample Input/Output:
   * Input: 92 → Output: "A"
-  * Input: 111 → Output: "Not a proper mark!"
+  * Input: 111 → Output: "Invalid mark"
