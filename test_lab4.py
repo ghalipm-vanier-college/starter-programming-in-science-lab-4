@@ -8,8 +8,8 @@ def test_check_weekday_or_weekend():
     assert check_weekday_or_weekend(0) == "Not a proper day number!"
     assert check_weekday_or_weekend(2) == "Weekday"
     assert check_weekday_or_weekend(5) == "Weekday"
-    assert check_weekday_or_weekend(6) == "Weekday"
-    assert check_weekday_or_weekend(7) == "Weekday"
+    assert check_weekday_or_weekend(6) == "Weekend"
+    assert check_weekday_or_weekend(7) == "Weekend"
     assert check_weekday_or_weekend(8) == "Not a proper day number!"
 
 
